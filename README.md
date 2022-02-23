@@ -2,87 +2,205 @@
 ### longPlay: TBD
 #### epicPlaylist: TBD
 
-TSOBTC is committed to a transparent process for creating this DAES Conceptual Design (CD). Each GitHub issue will cover all of the information needed to populate the CD metadata for TSOBTC's DAES. You can follow the same process for your own DAES's conceptual design.
-- Project Tracker: Curriculum DAO Concept Design (https://github.com/orgs/TheSchoolofBitcoin/projects/2)
-- b0mission: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/1
-- b1community: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/2
-- b2media: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/3
-- b3now: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/4
-- b4portfolio: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/5
-- b5essay: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/6
-- b6story: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/7
-- b7learn: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/8
-- b8play: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/9
-- b9journal: https://github.com/TheSchoolofBitcoin/DAES_CD/issues/10
 
-### End Result
-After working through each of these issues, we will have a Stacks NFT Minting dApp that allows people to mint the NFT associated with this course designed by a member from the bitcoin.design community. The metadata below represents the NFT's proof-of-work.
 
 ```
-epicPlaylistName: {
-  ourStoryRecordStore:               "432API",
-  bioMemeticOrganization:            "The School of Bitcoin",
-  longPlay:                          "The School of Bitcoin Pool?",
+#### Quantum Memoir | QM API
+
+Below is the API structure developed by Quantum MeMoir that will enable people to develop their own course with the form. 
+
+/////////
+/////////
+/////////
+2022 02 23 Meeting Start
+/////////
+/////////
+/////////
+
+```
+epicPlaylist: {
+  bioMemeticRecordStore:             "QM API",
+  bioMemeticOrganization:            "Quantum Memoir",
+  longPlay:                          "[Onboarding]",
+  epicPlaylist:                      "[TBD]",
   b0mission: {
     groove:                          "gr0ourSource",
-    projectFocus:                    "goals",
     gr0v0ego: {
-      institutionQuestion:           "What global institution will you explore?"
-      institution:                   "[INSTITUTION]",
-
-      challengeQuestion:             "What challenge does this institution create?"
-      challenge:                     "[CHALLENGE]",
-
-      egoQuestion:                   "What human trait contributes to this challenge?"
-      ego:                           "[EGO]",
-
-      bookEgoQuestion:               “What book will represent how this book explores this challenge?”,
-      bookEgoTitle:                  "[BOOK_EGO_TITLE]",
-      bookEgoAuthor:                 "[BOOK_EGO_AUTHOR]",
-
-      gr0v0Statement:                "Our __[INSTITUTION]__ institution is letting __[EGO]__ contribute to __[CHALLENGE]__. This Curriculum DAO uses __[BOOK_EGO_TITLE]__ by __[BOOK_EGO_AUTHOR]__ to understand our community's challenges."
+      institutionQuestion:           "What societal system do you want to explore? (ex. language, mass media, economic, etc.)"
+      institution:                   "language",
+      collectiveChallengeQuestion:   "Can you name a challenge that is created by the institution you selected? (ex. polarization, division, tribalism, etc.)"
+      collectiveChallenge:           "(preconcieved notion of )separation",
+      collectiveEgoQuestion:         "What do you think is causing the challenge you selected? (ex. fear, confusion, anger, etc.)"
+      collectiveEgo:                 "lack and fear",
+      bookEgoTitle:                  "Becoming Superhuman",
+      bookEgoAuthor:                 "Dr. Joe Dispenza",
+      gr0v0Output:                   "[__lack and fear__ in our __language__ institution is leading to more __(preconcieved notion of )separation__. We're learning from __Becoming Supernatural__ by __Dr. Joe Dispenza__ to develop our perspective.?]"
     },
     gr0v1biomimicry: {
-      natureMentorQuestion:          "What system in nature can use the challenge to create a benefit?",
-      natureMentor:                  "[NATURE_MENTOR]",
-      
-      mentorBenefitQuestion:         "What benefit does the system in nature create from the challenge?,
-      mentorBenefit:                 "[MENTOR_BENEFIT]",
-      
-      bookBioQuestion:               "What book will help explore the system in nature?",
-      bookBioTitle:                  "[BOOK_BIO_TITLE]",
-      bookBioAuthor:                 "[BOOK_BIO_AUTHOR]",
-      
-      gr0v1Statement:                "__[NATURE_MENTOR]__ use __[CHALLENGE]__ to create __[MENTOR_BENEFIT]__. We learn from __[BOOK_BIO_TITLE]__ by __[BOOK_BIO_AUTHOR]__ to think of creative solutions to our challenges."
+      natureMentor:                  "forest",
+      mentorBenefit:                 "clarity",
+      bookBioTitle:                  "The Power of the Subconscious Mind",
+      bookBioAuthor:                 "Joseph Murphy",
+      gr0v1Output:                   "We're learning from __forests__ to develop innovative alternatives to __preconcieved notions__. We're learning from __The Power of the Subconscious Mind__ by __Joseph Murphy__ as inspiration for biomimetic experiments."
     },
     gr0v2willpower: {
-      bookWillQuestion:              “What book will define how your community operates?",
-      bookWillTitle:                 "[BOOK_WILL_TITLE]",
-      bookWillAuthor:                "[BOOK_WILL_AUTHOR]",
-      
-      gr0v2Statement:                "We are developing a Curridulum DAO that learns from __[NATURE_MENTOR]__ so we can create __[MENTOR_BENEFIT]__ through __[CHALLENGE]__. We learn from __[BOOK_WILL_TITLE]__ by __[BOOK_WILL_AUTHOR]__ to help define how we operate."
+      goal:                          "inspire other people to heal others with the QM process - make sure people understand the process so it can take off on its own",
+      bookWillTitle:                 "The Quantum MeMoir Theory",
+      bookWillAuthor:                "Malee Muse",
+      gr0v2Output:                   "The experiments we create will explore how we can generate a __thriving environment for humanity__. We're learning from __The Quantum MeMoir Theory__ by __Malee Muse__ remind people of their untapped potential."
     },
     gr0v3song: {
+      songTitle:                     "All Things Must Pass",
+      songArtist:                    "George Harrison",
+      gr0v3song:                     "__All Things Must Pass__ by __George Harrison__ symbolize our project's mission."
+    }
+  },
+  b1community: {
+    groove:                          "gr1ourJourney",
+    gr1v0decentralization: {
+      
+      /// INDUSTRY: What industry do you want to influence? ///
+      /// NOTES: Create an environment where adults grow to help kids grow better lives. Seekers of gnosis ///
+      industry:                      "Wellness",
+      
+      /// SERVICE: What is your job description. ///
+      /// Foundational platform so they can study themselves. learn about their inner world. ///
+      service:                       "muse / tutor",
+      
+      /// FOCUS: What will be the main product that comes from the service? ///
+      focus:                         "The Thought Form",
+      
+      /// INSPIRATION: What other service will serve as inspiration for what you create? ///
+      serviceInspiration:            "Stewart Wild",
+      
+      /// REFERENCE: Share a website related to the product/service ///
+      serviceInspiractionURL:        "https://www.stuartwilde.com"
+      
+      ///// Add a note for how these responses tie together (Listen to recording) ///
+    },
+    gr1v1space: {
+      // We need to create a common vibe and space //
+      communityProject:              "Manifesting Club",
+      communityProjectExampleURL:    "quantummemoir.com",
+      
+      // Who do you appreciate //
+      promotedProject:               "Yogic Philosophy",
+      promotedProjectURL:            ""
+    },
+    gr1v1space: {
+      /// How would you like to help communities transform? ///
+      communityProject:              "[COMMUNITY_PROJECT]",
+      communityProjectExampleURL:    "[COMMUNITY_PROJECT_EXAMPLE_URL]",
+      
+      /// What other project would you like to promote? ///
+      promotedProject:               "[PROMOTED_PROJECT]",
+      promotedProjectURL:            "[PROMOTED_PROJECT_URL]"
+    },
+    gr1v2time: {
+      b0mission: {
+        deliverableFormat:           “Open Source Mission: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b1community: {
+        deliverableFormat:           “Open Source Community: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b2media: {
+        deliverableFormat:           “Brand Identity: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b3now: {
+        deliverableFormat:           “Marketing Strategy: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b4portfolio: {
+        deliverableFormat:           “Marketplace: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b5essay: {
+        deliverableFormat:           “Litepaper: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b6story: {
+        deliverableFormat:           “Storyboard: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b7learn: {
+        deliverableFormat:           “Curriculum: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b8play: {
+        deliverableFormat:           “Community Game: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+      b9journal: {
+        deliverableFormat:           “Note Taking Strategy: Concept Design”,
+        deliverableDate:             “YYYY MM DD”
+        deliverableURL:              “[DELIVERABLE_URL]",
+        deliverablePOWURL:           “[DELIVERABLE_POW_URL]”
+      },
+    gr1v3song: {
       songTitle:                     "[SONG_TITLE]",
       songArtist:                    "[SONG_ARTIST]",
       
-      gr0v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's goals."
+      gr1v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's community roadmap."
     }
   },
+  
+  
+/////////
+/////////
+/////////
+2022 02 23 Meeting End
+/////////
+/////////
+/////////
+  
+  
   
   b1community: {
     groove:                          “gr1ourJourney”,
     projectFocus:                    "Community Roadmap",
     gr1v0decentralization: {
-      industry:                      "Education",
-      service:                       "base curriculum for crypto",
-      focus:                         "Bit Entry Program",
+    
+      /// INDUSTRY: What industry do you want to influence? ///
+      industry:                      "Human Resources",
+      
+      /// SERVICE: What value do you want to bring to the industry? ///
+      service:                       "onboarding protocol",
+      
+      /// FOCUS: What will be the main product that comes from the service? ///
+      focus:                         "[TSOBTC DAO Curriculum API?]",
+      
+      /// INSPIRATION: What other service will serve as inspiration for what you create? ///
       serviceInspiration:            "[SERVICE_INSPIRATION]",
       serviceInspiractionURL:        "[SERVICE_INSPIRATION_URL]"
+      
     },
     gr1v1space: {
+      /// How would you like to help communities transform? ///
       communityProject:              "[COMMUNITY_PROJECT]",
       communityProjectExampleURL:    "[COMMUNITY_PROJECT_EXAMPLE_URL]",
+      
+      /// What other project would you like to promote? ///
       promotedProject:               "[PROMOTED_PROJECT]",
       promotedProjectURL:            "[PROMOTED_PROJECT_URL]"
     },
@@ -165,119 +283,108 @@ epicPlaylistName: {
     
     },
     gr2v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr2v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's brand identity."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b3now: {
     gr3v0shadow: {
-      
+      shadow:                        "Censorship",
+      audio:                         "Dave Chappelle",
+      video:                         "Storms"
     },
     gr3v1presence: {
-     
+      presence:                      "Empathy",
+      audio:                         "Insight Timer",
+      video:                         "Soil"
     },
     gr3v2music: {
-      
+      music:                         "Schuman Resonance",
+      audio:                         "Kev Thompson Music",
+      video:                         "Water"
     },
     gr3v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr2v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's marketing strategy."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b4portfolio: {
     gr4v0create: {
-      /// This section defines the structure of the case studies the Curriculum DAO will create to update the community ///
+    
     },
     gr4v1habit: {
-      /// This section defines the content schedule (strategy is b3now) across social media. Also schedule for case study updates. ///
+    
     },
     gr4v2wealth: {
-      /// This section defines the wealth generation targets as a result of the conceptual tokenomics design. ///
-      wealthGenerationTarget:        “ ”,
-      communityInvestmentTarget:     “ ”,
-      freelancerPayoutTarget:        “ ”
+    
     },
     gr4v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr4v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's value proposition."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b5essay: {
     gr5v0belief: {
-      /// Section of the litepaper that defines the basis for the projects belief that this Curriculum DAO will help with the defined challenge ///
+    
     },
     gr5v1science: {
-      /// Section of the litepaper that outlines the scientific process used to design the Curriculum DAO case study experiments ///
+    
     },
     gr5v2sensemaking: {
-      /// Section of the litepaper that outlines current biases and counter arguments with evidence to create a more balanced perspective for the challenge. ///
+    
     },
     gr5v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr5v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's litepaper."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b6story: {
     gr6v0mythology: {
-      /// Define how the litepaper will be transformed into an imaginative myth (comic/graphic novel/short stories/etc.) and the narratives story arch ///
+    
     },
     gr6v1spirituality: {
-      /// Moral of the creative story for the protagonist (Curriculum DAO). These are related to the results of the experiments from gr5v1science ///
+    
     },
     gr6v2consciousness: {
-      /// Moral of the creative story for the institution defined in b0mission  ///
+    
     },
     gr6v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr6v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's mythology."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b7learn: {
     gr7v0ecology: {
-      /// Didactic financial literacy course through an ecological lens  ///
+    
     },
     gr7v1physiology: {
-      /// Didactic financial literacy course through an physiological lens  ///
+    
     },
     gr7v2sociology: {
-      /// Didactic financial literacy course through an sociological lens  ///
+    
     },
     gr7v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr7v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's curriculum."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b8play: {
     gr8v0values: {
-      /// Define rules of the community game  ///
+    
     },
     gr8v1vision: {
-      /// Define the intended outcomes of the game  ///
+    
     },
     gr8v3game: {
-      /// Design, develop, and deploy the game  ///
+    
     },
     gr8v3song: {
-      songTitle:                     "[SONG_TITLE]",
-      songArtist:                    "[SONG_ARTIST]",
-      
-      gr8v3Statement:                "__[SONG_TITLE]__ by __[SONG_ARTIST]__ represents our project's community game."
+      songTitle:                     "TBD",
+      songArtist:                    "TBD"
     }
   },
   b9journal: {
-    /// This repository represents journal to serve as the proof-of-work for this Curriculum DAOs NFT  ///
+
   },
-}
-```
+}    
+``` 
