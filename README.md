@@ -1,4 +1,4 @@
-# Quantum MeMoir
+# bMO: Quantum MeMoir
 ### longPlay: TBD
 #### epicPlaylist: TBD
 
@@ -18,7 +18,7 @@ Below is the API structure developed by Quantum MeMoir that will enable people t
 /////////
 
 epicPlaylist: {
-  bioMemeticRecordStore:             "QM API",
+  bioMemeticRecordStore:             "432 API",
   bioMemeticOrganization:            "Quantum Memoir",
   longPlay:                          "[Onboarding]",
   epicPlaylist:                      "[TBD]",
