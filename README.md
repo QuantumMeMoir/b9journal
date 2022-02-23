@@ -17,7 +17,6 @@ Below is the API structure developed by Quantum MeMoir that will enable people t
 /////////
 /////////
 
-```
 epicPlaylist: {
   bioMemeticRecordStore:             "QM API",
   bioMemeticOrganization:            "Quantum Memoir",
