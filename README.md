@@ -1,4 +1,4 @@
-# bioMemetic Organization: Quantum MeMoir
+# Quantum MeMoir
 ### longPlay: TBD
 #### epicPlaylist: TBD
 
