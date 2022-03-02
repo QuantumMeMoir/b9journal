@@ -35,7 +35,7 @@ thoughtForm: {
     gr0v1biomimicry: {
       natureMentor:                  "forest",
       
-      mentorBenefit:                 "clarity",
+      mentorBenefit:                 "cooperation",
       
       bookBioTitle:                  "The Power of the Subconscious Mind",
       
@@ -65,7 +65,7 @@ thoughtForm: {
       
       /// INDUSTRY: What industry do you want to influence? ///
       /// NOTES: Create an environment where adults grow to help kids grow better lives. Seekers of gnosis ///
-      industry:                      "Wellness",
+      industry:                      "Lifestyle",
       
       /// SERVICE: What is your job description. ///
       /// Foundational platform so they can study themselves. learn about their inner world. ///
